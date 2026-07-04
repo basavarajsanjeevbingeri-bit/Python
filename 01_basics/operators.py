@@ -76,3 +76,33 @@ list3 = list1
 print(f"list1 is list2: {list1 is list2}")  # Different objects
 print(f"list1 is list3: {list1 is list3}")  # Same object
 print(f"list1 == list2: {list1 == list2}")  # Same values
+
+
+#Bitwise Operators 
+a = 5 
+b = 4
+print(a & b)
+print(a | b)
+print(a ^ b)
+print(~a)
+print(a << 2)
+print(a >> 2)
+
+
+#Identity Operators 
+a = 5
+b = 5
+c = '5'
+print(id(a))
+print(id(b))
+print(a is b)
+print(id(c))
+print(a is c)
+
+a = 5 
+print(id(a))
+print(a)
+a = 8 
+print(id(a))
+print(a)
+print(a is a)
