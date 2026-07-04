@@ -46,3 +46,39 @@ print(f"\nMultiple assignment: a={a}, b={b}, c={c}")
 x, y = 5, 10
 x, y = y, x
 print(f"After swap: x={x}, y={y}")
+
+var_1 = 'Hello'
+var_2 = "World"
+print(var_1 , type(var_1))
+print(var_2 , type(var_2))
+var_3 = 'Hey Now I am free from auto suggestion'
+print(var_3 , type(var_3))
+
+var_4 = 123456789123456789123456789123456789
+var_5 = 12.5 
+print(var_4 , type(var_4))
+print(var_5 , type(var_5))
+print(var_4 + var_5)
+
+
+var_6 = 0o123
+var_7 = 0x123
+print(var_6 , type(var_6))
+print(var_7 , type(var_7))
+print(var_6 + var_7)
+
+name = "Basavaraj S Bingeri"
+name1 = "Chinmay"
+print(name[7])
+print(name[9])
+print(name + name1 )
+
+print("Basavaraj\'s \"Lectures\"")
+
+name7 = "Basvaraj\'s \"Lectures\""
+print(name7)
+print(len(name7))
+# print(len(12345))
+
+length = len("Basavaraj")
+print("Your name has " + str(length) + " characters ")
