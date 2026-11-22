@@ -46,5 +46,5 @@ set3 = {'Krishna','Karna','Lakshamana','Hanumanta'}
 # print(set2)
 
 #del concept
-del set2  # delete the set itself 
-print(set2) #NameError: name 'set2' is not defined
+# del set2  # delete the set itself 
+# print(set2) #NameError: name 'set2' is not defined
